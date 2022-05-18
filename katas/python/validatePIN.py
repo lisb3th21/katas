@@ -13,15 +13,15 @@ def scramble(s1, s2):
     if contador==(numS2-1):
         return True
     else:
-        return False       
-            
-        
-     
-    
-    
-    
-print(len("scriptjava"))    
-    
-    
+        return False
 
-print(scramble("scriptjava", "javascript"))
+
+
+
+
+
+print(len("scriptjava"))
+
+
+
+print(scramble("scriptjava", "javascript"));
