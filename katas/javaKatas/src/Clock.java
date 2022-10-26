@@ -17,3 +17,4 @@ public class Clock {
         System.out.println(Past(0, 1, 1));
     }
 }
+
