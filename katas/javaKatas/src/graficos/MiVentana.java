@@ -2,14 +2,12 @@ package graficos;
 
 import java.awt.Container;
 import java.awt.Dimension;
-
 import javax.swing.JFrame;
-
 
 
 public class MiVentana {
     public MiVentana(String titulo) {
-        titulo= "GridBagLayout";
+        //titulo= "GridBagLayout";
        JFrame frame = new JFrame(titulo);
        
        
@@ -35,5 +33,5 @@ public class MiVentana {
 }
 
 public static void main(String[] args) {
-    MiVentana v= new MiVentana("fff");
+    MiVentana v= new MiVentana("Imagen");
 }}

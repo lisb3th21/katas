@@ -26,13 +26,14 @@ public class Viewer  extends Canvas implements Runnable{
             System.out.println("No manejador de graficos");
             return;
         }
-        gg.drawImage(this.image,0,0,null);
+        gg.drawImage(this.image,1,1,null);
+        
     }
    
     @Override
     public void paint(Graphics g){
         this.paintBackground();
-    }
+    g.setClip(ALLBITS, ABORT, 300, 300);    }
 
     @Override
     public void run() {
@@ -41,9 +42,9 @@ public class Viewer  extends Canvas implements Runnable{
 
 
     public int getDimensionY(){
-        return  this.image.getHeight();
+        return  300;
     }
     public int getDimensionX(){
-        return  this.image.getWidth();
+        return  300;
     }
 }
