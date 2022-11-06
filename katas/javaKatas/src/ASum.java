@@ -18,5 +18,6 @@ public class ASum {
 	}	
     public static void main(String[] args) {
        System.out.println(findNb(1620862619));
+       
     }
 }
